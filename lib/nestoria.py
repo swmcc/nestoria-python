@@ -28,7 +28,7 @@ def _build_parameters(parameters={}):
         api_parameters[element] = parameters[element]
 
     # these aren't really hardcoded so will change this
-    harcoded_parameters = {'action':'search_listings', 'country':'uk', 'encoding':'json'}
+    harcoded_parameters = {'action':'search_listings', 'number_of_results':'50','country':'uk', 'encoding':'json'}
 
     parameters = dict(api_parameters.items() + harcoded_parameters.items())
     return urlencode(parameters)
@@ -43,14 +43,12 @@ def _get_results(parameters={}):
 
     return results
 
-def get_properites(parameters={}):
-    results = _get_results(parameters)
+def search_listings(parameters={}):
     
     properties = {}
-    for result in results['response']['listings']:
-        properties[result['guid']] = Property(**result)
+    results = _get_results(parameters)
+    if results['response']['application_response_code'].startswith('1'):
+        for result in results['response']['listings']:
+            properties[result['guid']] = Property(**result)
 
     return properties
-
-if __name__ == '__main__':
-    print get_properites({'place_name':'Ballymena'})
