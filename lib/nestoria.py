@@ -28,6 +28,7 @@ api_defaults = {
     'country': 'uk',
     'encoding': 'json',
     'number_of_results': '50',
+    'sort': 'newest',
 }
 
 def _build_parameters(parameters={}):
