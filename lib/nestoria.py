@@ -13,14 +13,14 @@ Property = namedtuple('Property', [
     'listing_type', 'location_accuracy', 'longitude', 'price', 'price_coldrent',
     'price_currency', 'price_formatted', 'price_high', 'price_low', 'price_type',
     'property_type', 'summary', 'thumb_height', 'thumb_url', 'thumb_width',
-    'title', 'updated_in_days', 'updated_in_days_formatted',
+    'title', 'updated_in_days', 'updated_in_days_formatted'
 ])
 
 api_elements = [
     'place_name', 'south_west', 'north_east', 'centre_point', 'radius',
     'number_of_results', 'listing_type', 'property_type', 'price_max',' price_min',
     'bedroom_max', 'bedroom_min', 'size_max', 'size_min', 'sort', 'keywords',
-    'keywords_exclude', 'action', 'number_of_results', 'country', 'encoding'
+    'keywords_exclude', 'action', 'number_of_results', 'country', 'encoding', 'page'
 ]
 
 api_defaults = { 
@@ -52,16 +52,22 @@ def _get_results(parameters={}):
     return results
 
 def search_listings(parameters={}):
-    properties = {}
     parameters['action'] = 'search_listings'
 
     results = _get_results(parameters)
 
-    if results['response']['application_response_code'].startswith('1'):
-        for result in results['response']['listings']:
-            properties[result['guid']] = Property(**result)
+    properties = {}
+    for page in range(2, results['response']['total_pages']+1):
+        parameters['page'] = page
+        results = _get_results(parameters)
+
+        if results['response']['application_response_code'].startswith('1'):
+            for result in results['response']['listings']:
+                if len(result) == 33:
+                    properties[result['guid']] = Property(**result)
 
     return properties
 
 if __name__ == '__main__':
-   print search_listings({'place_name':'Glenavy'})
+    properties = search_listings({'place_name':'Glenavy'})
+    print properties
