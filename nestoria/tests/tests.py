@@ -1,6 +1,6 @@
 import unittest
 
-from lib.nestoria import get_all_listings
+from nestoria import search_listings 
 
 class TestNestoria(unittest.TestCase):
 
@@ -11,15 +11,16 @@ class TestNestoria(unittest.TestCase):
 
         self.parameters = {'place_name':'London'}
 
-    def testPagination(self):
+    def test_pagination(self):
         parameters = self.parameters
-        properties = get_all_listings(parameters)
+        properties = search_listings(parameters)
 
         parameters['page'] = 2
-        second_properties = get_all_listings(parameters)
+        second_properties = search_listings(parameters)
 
         self.assertFalse(set(properties) == set(second_properties), 
             'Pagination is returning the same results')
+
 
 if __name__ == '__main__':
     unittest.main()

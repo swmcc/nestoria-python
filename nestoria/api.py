@@ -70,4 +70,5 @@ def _build_results(parameters={}):
 
 def search_listings(parameters={}):
     parameters['action'] = 'search_listings'
-    properties = _build_results(parameters) 
+    return _build_results(parameters) 
+
