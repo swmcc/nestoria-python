@@ -1,6 +1,6 @@
-import unittest
+from nestoria import search_listings
 
-from nestoria import search_listings 
+import unittest
 
 class TestNestoria(unittest.TestCase):
 

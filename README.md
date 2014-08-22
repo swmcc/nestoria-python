@@ -23,6 +23,15 @@ Very simple python wrapper to the nestoria service. Work in progress.
 ```
 git clone https://github.com/swmcc/nestoria-python.git 
 cd nestoria-python 
+
+### Tests
+
+No real point in mocking the API so this queries the nestoria API - so be nice
+
+```
+make tests
+```
+
 ```
 ## TODO
 

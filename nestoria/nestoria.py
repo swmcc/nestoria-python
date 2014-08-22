@@ -1,5 +1,4 @@
-import urllib2
-import json
+import json, urllib2
 
 from collections import namedtuple
 from urllib import urlencode
