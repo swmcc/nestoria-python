@@ -6,15 +6,13 @@ from urllib import urlencode
 
 NESTORIA_API_URL = 'http://api.nestoria.co.uk/api?'
 
-Property = namedtuple('Property', [
-    'auction_date',  'bathroom_number', 'bedroom_number', 'car_spaces',
-    'commission', 'construction_year', 'datasource_name', 'guid', 'img_height',
-    'img_url', 'img_width', 'keywords', 'latitude', 'lister_name', 'lister_url',
-    'listing_type', 'location_accuracy', 'longitude', 'price', 'price_coldrent',
-    'price_currency', 'price_formatted', 'price_high', 'price_low', 'price_type',
-    'property_type', 'summary', 'thumb_height', 'thumb_url', 'thumb_width',
-    'title', 'updated_in_days', 'updated_in_days_formatted'
-])
+api_defaults = { 
+    'action': 'search_listings',
+    'country': 'uk',
+    'encoding': 'json',
+    'number_of_results': '20',
+    'sort': 'newest',
+}
 
 api_elements = [
     'place_name', 'south_west', 'north_east', 'centre_point', 'radius',
@@ -23,13 +21,17 @@ api_elements = [
     'keywords_exclude', 'action', 'number_of_results', 'country', 'encoding', 'page'
 ]
 
-api_defaults = { 
-    'action': 'search_listings',
-    'country': 'uk',
-    'encoding': 'json',
-    'number_of_results': '50',
-    'sort': 'newest',
-}
+property_elements = [
+    'auction_date',  'bathroom_number', 'bedroom_number', 'car_spaces',
+    'commission', 'construction_year', 'datasource_name', 'guid', 'img_height',
+    'img_url', 'img_width', 'keywords', 'latitude', 'lister_name', 'lister_url',
+    'listing_type', 'location_accuracy', 'longitude', 'price', 'price_coldrent',
+    'price_currency', 'price_formatted', 'price_high', 'price_low', 'price_type',
+    'property_type', 'summary', 'thumb_height', 'thumb_url', 'thumb_width',
+    'title', 'updated_in_days', 'updated_in_days_formatted'
+]
+
+Property = namedtuple('Property', property_elements)
 
 def _build_parameters(parameters={}):
     api_parameters = {}
@@ -51,23 +53,21 @@ def _get_results(parameters={}):
 
     return results
 
-def search_listings(parameters={}):
-    parameters['action'] = 'search_listings'
-
+def _build_results(parameters={}):
     results = _get_results(parameters)
-
     properties = {}
-    for page in range(2, results['response']['total_pages']+1):
-        parameters['page'] = page
-        results = _get_results(parameters)
+    if results['response']['application_response_code'].startswith('1'):
+        for result in results['response']['listings']:
 
-        if results['response']['application_response_code'].startswith('1'):
-            for result in results['response']['listings']:
-                if len(result) == 33:
-                    properties[result['guid']] = Property(**result)
+            # sometimes we don't get what we would expect so best to be safe
+            for element in property_elements:
+                if element not in result:
+                    result[element] = ''
+
+            properties[result['guid']] = Property(**result)
 
     return properties
 
-if __name__ == '__main__':
-    properties = search_listings({'place_name':'Glenavy'})
-    print properties
+def search_listings(parameters={}):
+    parameters['action'] = 'search_listings'
+    properties = _build_results(parameters) 
