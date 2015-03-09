@@ -30,9 +30,14 @@ property_elements = [
     'title', 'updated_in_days', 'updated_in_days_formatted'
 ]
 
+sort_options = [
+    'bedroom_lowhigh', 'bedroom_highlow', 'price_lowhigh', 
+    'price_highlow', 'newest', 'oldest'
+]
+
 Property = namedtuple('Property', property_elements)
 
-def _build_parameters(parameters={}):
+def _build_search_parameters(parameters={}):
     api_parameters = {}
     for element in [x for x in parameters if x in api_elements]:
         # should validate the data passed in not just the element name
@@ -45,14 +50,14 @@ def _build_parameters(parameters={}):
     return urlencode(api_parameters)
 
 def _get_results(parameters={}):
-    api_parameters = _build_parameters(parameters)
+    api_parameters = _build_search_parameters(parameters)
 
     response = urllib2.urlopen(NESTORIA_API_URL + api_parameters)
     results = json.load(response)
 
     return results
 
-def _build_results(parameters={}):
+def _build_search_results(parameters={}):
     results = _get_results(parameters)
     properties = {}
     if results['response']['application_response_code'].startswith('1'):
@@ -69,5 +74,5 @@ def _build_results(parameters={}):
 
 def search_listings(parameters={}):
     parameters['action'] = 'search_listings'
-    return _build_results(parameters) 
+    return _build_search_results(parameters) 
 
