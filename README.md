@@ -1,5 +1,7 @@
 # nestoria-python 
 
+[ ![Codeship Status for swmcc/nestoria-python](https://codeship.com/projects/c5a29750-ad84-0132-b077-526b9a410e37/status?branch=master)](https://codeship.com/projects/68687)
+
 **nest·or·ia**  */ˈnestˌoria/*
 
 *Noun:*  
