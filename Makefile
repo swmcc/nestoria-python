@@ -8,4 +8,7 @@ init:
 	$(ENTER_VENV); pip install -r requirements/dev.txt
 
 tests:
-	cd nestoria; python -m unittest discover
+	$(ENTER_VENV); cd nestoria; python -m unittest discover
+
+pylint:
+	$(ENTER_VENV); pylint --rcfile=.pylintrc nestoria 
