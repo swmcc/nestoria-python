@@ -1,0 +1,4 @@
+-r requirements.txt
+
+pylint==1.4.1
+pylint-plugin-utils==0.2.3
