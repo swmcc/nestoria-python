@@ -2,3 +2,4 @@
 
 pylint==1.4.1
 pylint-plugin-utils==0.2.3
+vcrpy==1.4.1

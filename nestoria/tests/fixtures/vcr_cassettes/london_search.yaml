@@ -1,0 +1,346 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [api.nestoria.co.uk]
+      User-Agent: [Python-urllib/2.7]
+    method: GET
+    uri: http://api.nestoria.co.uk/api?sort=newest&number_of_results=20&country=uk&encoding=json&action=search_listings&place_name=London
+  response:
+    body: {string: "{\"request\":{\"country\":\"uk\",\"language\":\"en\",\"location\"\
+        :\"London\",\"num_res\":\"20\",\"offset\":0,\"output\":\"json_xs\",\"page\"\
+        :1,\"product_type\":\"realestate\",\"property_type\":\"property\",\"size_type\"\
+        :\"gross\",\"size_unit\":\"m2\",\"sort\":\"newest\"},\"response\":{\"application_response_code\"\
+        :\"110\",\"application_response_text\":\"listings returned, location very\
+        \ large\",\"attribution\":{\"img_height\":22,\"img_url\":\"http://s.uk.nestoria.nestimg.com/i/realestate/all/all/pbr.png\"\
+        ,\"img_width\":183,\"link_to_img\":\"http://www.nestoria.com\"},\"created_http\"\
+        :\"Sun, 26 Apr 2015 19:01:35 GMT\",\"created_unix\":1430074895,\"link_to_url\"\
+        :\"http://www.nestoria.co.uk/london/property/buy/results-20/sortby-newest\"\
+        ,\"listings\":[{\"auction_date\":null,\"bathroom_number\":\"\",\"bedroom_number\"\
+        :3,\"car_spaces\":null,\"commission\":0,\"construction_year\":0,\"datasource_name\"\
+        :\"NetHousePrices\",\"guid\":\"g1-TOtAESyYjM3gFNx8jM5EzN1czM0g\",\"img_height\"\
+        :120,\"img_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/2/0/f/e602c6b10ce7ff2ecff774347c2597aba8959.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.4192390441894531,\"lister_name\"\
+        :\"Springbok\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UYe-NGiQPiRGRJCiZ&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmnXO6u50s2qDemu-ced_G5rGpMAbDMkMIxpMZsli8WefUu6sPU8-oGyh-pR5OgB7DY1PNU1dlMevg11bkCYzKZwBlYrKuUnoqgEDyvQcQ0gWjNiAXvEvzby0n8wKI_4SYr6LKnKR5B32Vljx1BjDAd3dmMw8zaBXYSfLNRCeMDbPY_Tna6o0iwSz5h4DeNRUbYdWNNbcD7cXNz6GVJCJe6fPj6vxgWR9WYOLnuFWmV3Rxj_fC6w3YF1nCL5QUigssuVrypNA6vzCAKnK5f1IoURFoQOrHDI7eyiNXkIFO&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":0.129260003566741943,\"\
+        price\":300000,\"price_currency\":\"GBP\",\"price_formatted\":\"300,000 GBP\"\
+        ,\"price_high\":300000,\"price_low\":300000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"house\",\"summary\":\"Offers in excess of \xA3300,000springbok properties\
+        \ offers this attractively...\",\"thumb_height\":60,\"thumb_url\":\"http://2.l.uk.nestoria.nestimg.com/lis/2/0/f/e602c6b10ce7ff2ecff774347c2597aba8959.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Bedens Road, Sidcup, Kent, DA14\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":0,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtAjR4QkQ1QTQwETRCFjNfdjMyEgM==\",\"img_height\":120,\"img_url\":\"\
+        http://1.l.uk.nestoria.nestimg.com/lis/8/6/4/25a4a85bc7858661606bfbfd639abe53f508c.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Loft, Reception\",\"latitude\":51.4921913146972656,\"\
+        lister_name\":\"Hogarth Estates\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UaeAPIkSRkTITLEkc&s=&url=2-ePz73aTBU4LVGFByDI4_4Ner8aIMqOqmn3O6u50s2qDemu-ced_G5rGpMAbDMkMHx54Zsli8WefUu6sPU8-oGzVguh5GgRjXelfSSVJlMe772ViqEdrSf0AlbLz8UGEghgfqpRYU0QCjNjxd9iD2fV94ogzZ78WAt7nDgbtzCnKRkCNpAj_LcnNrOQ4iZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWpQSgHFfuETypqQyyjGCRni8axNhVwx-V7TMVJPP1iVRg8pSgHw%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.21308000385761261,\"\
+        price\":435000,\"price_currency\":\"GBP\",\"price_formatted\":\"435,000 GBP\"\
+        ,\"price_high\":435000,\"price_low\":435000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"Exceptionally light `loft` style studio flat on the\
+        \ raised ground floor...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/8/6/4/25a4a85bc7858661606bfbfd639abe53f508c.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Gliddon Road, W14 - Reception\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":5,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATQ0UTNEhjNDFjM0MzQfFTM0EzN=c\",\"img_height\":120,\"img_url\":\"\
+        http://1.l.uk.nestoria.nestimg.com/lis/5/6/9/82ef24973a1bd182106cb3f7052e085e6ec46.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Garden, Refurbished\",\"latitude\":51.4251518249511719,\"\
+        lister_name\":\"Aspire\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=WUeOdWygfyhWhZSyr&s=&url=2-ePz73aTBU4LVGFByDI464Ner8aIMqOqmnnO6u50s2qDemu-ce9_G5rGpMAbDMkMHxpkZsli8WefUu6sPU8-oGzVguh1DixjfelfSSVJuNu732ViqEdrSf0AlbLz8UGEghgfqpRYY1QCjNjxd9iD2fV94ogzZ78WAt7nDgbtyCXOWnSJpAj_KcXpqPA8lZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWpMTjAYjyTPy1dMwvESERnu8bRZwAhBkUKXKDMDEwCJKntFawyOW&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.149000003933906555,\"\
+        price\":875000,\"price_currency\":\"GBP\",\"price_formatted\":\"875,000 GBP\"\
+        ,\"price_high\":875000,\"price_low\":875000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"\",\"summary\":\"House has been fully refurbished to a standard and attention\
+        \ to detail...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/5/6/9/82ef24973a1bd182106cb3f7052e085e6ec46.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Moyser Road, SW16 - Garden\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":2,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtAzN0ETMflTO2ITO5M\",\"img_height\":120,\"img_url\":\"http://2.s.uk.nestoria.nestimg.com/i/all/all/all/g/cs4.2.png\"\
+        ,\"img_width\":160,\"keywords\":\"Shared Garden\",\"latitude\":51.4263114929199219,\"\
+        lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=VWeGVOqYXqZOZRKqk&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmnnO6u50s2qDemu-ced_G5rGpMAbDMkMHxpkZsli8WefUu6sPU8-oGzVguh1FixzfelfSSVJuNezz2ViqEdrSf0AlbLz8UGEghgfqpRYT2wyqMzxd9iD2fV94ogzZ78WAt7nDgbtzCnORlShpAj_Id3dsOwkjZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuUXjAIi0jzxoNgwsSHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.129399999976158142,\"\
+        price\":399950,\"price_currency\":\"GBP\",\"price_formatted\":\"399,950 GBP\"\
+        ,\"price_high\":399950,\"price_low\":399950,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"Two bedroom flat, presented in condition and set in\
+        \ this quiet residential...\",\"thumb_height\":60,\"thumb_url\":\"http://3.s.uk.nestoria.nestimg.com/i/all/all/all/g/cs4.1.png\"\
+        ,\"thumb_width\":60,\"title\":\"Hopton Road, SW16 - Shared Garden\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":3,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtAzN0EDMfFTO5ITNzE\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/5/a/0/d79b8423041401557a73a03b6677036a9a020.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Garden, Garage, Modern\",\"latitude\":51.5345611572265625,\"\
+        lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UbeBQJlTSlUJUMFlg&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmn3O6u50s2qDemu-cfN_G5rGpMAbDMkMHx54Zsli8WefUu6sPU8-oGzVguh5HhB7ZelfSSVNvN-r02ViqEdrSf0AlbLz8UGEghgfqpRYR0gyqMzxBvGqdeE0K_V3XvtXBr6HYiKZsDXCRkiB8HjjOdHJpOA0kfBWBGeudEifeW6_cs2bPstUimDWynY3FKAkLYsKUJLsTptWMweGRZS9V9bjrrPw3Sk9bMvqzq0ucUFlujf3A-gaKBxuWA-8RiQcrvFr6pNg2uTSTaiX4K0IiGQ1uVqPGG5TLhyw%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.206660002470016479,\"\
+        price\":1099500,\"price_currency\":\"GBP\",\"price_formatted\":\"1,099,500\
+        \ GBP\",\"price_high\":1099500,\"price_low\":1099500,\"price_type\":\"fixed\"\
+        ,\"property_type\":\"\",\"summary\":\"Situated in a prime location, this three\
+        \ bedroom flat positioned on the...\",\"thumb_height\":60,\"thumb_url\":\"\
+        http://3.l.uk.nestoria.nestimg.com/lis/5/a/0/d79b8423041401557a73a03b6677036a9a020.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Harvist Road, NW6 - Modern, Garden\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":3,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATNwk1XBdjTyEDMxYgM==\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/e/1/2/fee1fe8f2ca79c434e9037c77adbccc109aec.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Terrace, Garage\",\"latitude\":51.5718994140625,\"\
+        lister_name\":\"Bairstow Eves\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=VZeJYRtbatcRcUNtp&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmm3O6u50s2qDemu-ce9_G5rGpMAbDMkMIxZsZsli8WefUu6sPU8-oGyh-pB9DhRvDY1PNUlFtOu_g11bkCYzKZwBlYrKuUnoqgEDyvQMY0gWjNiAXvEvzby0n8wKI_4SYr6LKnKR0CXGenDx1BTjAc3JvPw8zaBXYSfLNRCeMDbPY_Tna6o0iwSz5h4DeNRUbYdWNNbcD7cXNz6GVJCJe6fPj6vxgWR9WYOLnuFWmV3Rxj_fC6w3YF1nCUusW52RawzTxptcyuiHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":0.0347299985587596893,\"\
+        price\":780000,\"price_currency\":\"GBP\",\"price_formatted\":\"780,000 GBP\"\
+        ,\"price_high\":780000,\"price_low\":780000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"house\",\"summary\":\"Well maintained end of terrace three bedroom family\
+        \ home with attached...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/e/1/2/fee1fe8f2ca79c434e9037c77adbccc109aec.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Overton Drive, E11 - Terrace\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":1,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATN3YTNfFTOyIjMzc\",\"img_height\":120,\"img_url\":\"http://2.s.uk.nestoria.nestimg.com/i/all/all/all/g/cs4.2.png\"\
+        ,\"img_width\":160,\"keywords\":\"Kitchen, Reception\",\"latitude\":51.4572982788085938,\"\
+        lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UaeAPIkSRkTITLEkh&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmnnO6u50s2qDemu-ced_G5rGpMAbDMkMHxpkZsli8WefUu6sPU8-oGzVguh1GihDdelfSSVJpNOzy2ViqEdrSf0AlbLz8UGEghgfqpRYT0ACjNjxd9iD2fV94ogzZ78WAt7nDgbtzCnOTkiJpAj_Id3ZoOgwlZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWucQjwYq0jzxpNM0uyHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.11881999671459198,\"\
+        price\":325000,\"price_currency\":\"GBP\",\"price_formatted\":\"325,000 GBP\"\
+        ,\"price_high\":325000,\"price_low\":325000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"Great one bedroom flat, set on the second floor, offering\
+        \ an airy reception...\",\"thumb_height\":60,\"thumb_url\":\"http://3.s.uk.nestoria.nestimg.com/i/all/all/all/g/cs4.1.png\"\
+        ,\"thumb_width\":60,\"title\":\"Brixton Hill, SW2 - Reception\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":3,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtAjM3EVN18jMxMTNyAQN==\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/d/0/1/ba730b26854946fee60904cd131179426948a.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Garage\",\"latitude\":51.6487693786621094,\"\
+        lister_name\":\"Douglas Allen\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=WdeXmf7po7qfqib75&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmmXO6u50s2qDemu-cet_G5rGpMAbDMkMIwpMZsli8WefUu6sPU8-oGyh-pBlDgxjDY1PNUVJkNOjg11bkCYzKZwBlYrKuUnoqgEDyvQIQ0gWjNiAXvEvzby0n8wKI_4SYr6LKnKR0CnGQlTx1BTnOdHRtOw8zaBXYSfLNRCeMDbPY_Tna6o0iwSz5h4DeNRUbYdWNNbcD7cXNz6GVJCJe6fPj6vxgWR9WYOLnuFWmV3Rxj_fC6w3YF1nCVeMRjWwuvzbyo9ExvSHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":0.0540999993681907654,\"\
+        price\":600000,\"price_currency\":\"GBP\",\"price_formatted\":\"600,000 GBP\"\
+        ,\"price_high\":600000,\"price_low\":600000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"house\",\"summary\":\"Open house saturday 25th april 2015 by appointment\
+        \ only with the central...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/d/0/1/ba730b26854946fee60904cd131179426948a.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"The Drive, Loughton, Essex, IG10\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":5,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATMwYjMfZTO2ITOwM\",\"img_height\":120,\"img_url\":\"http://2.s.uk.nestoria.nestimg.com/i/all/all/all/g/cs4.2.png\"\
+        ,\"img_width\":160,\"keywords\":\"Garden, Conversion, Loft\",\"latitude\"\
+        :51.5952110290527344,\"lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=XVeZoh9rq9shskd98&s=&url=2-ePz73aTBU4LVGFByDI464Ner8aIMqOqmnHO6u50s2qDemu-cfN_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguh1EixHdelfSSVNlNu3z2ViqEdrSf0AlbLz8UGEghgfqpRYR1gemNjxBvGqdeE0K_V3XvtXBr6HYiKZsDXCSlyNzHjjOdXBuMw8gcxWBGeudEifeW6_cs2bPstUimDWynY3FKAkLYsKUJLsTptWMweGRZS9V9bjrrPw3Sk9bMvqzq0ucUFlujf3A-gaKBxuWA-8XjgMpu1r6pNc6uzeTaiX4K0IiGQ1uVqPGG5TLhyw%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.13991999626159668,\"\
+        price\":1425000,\"price_currency\":\"GBP\",\"price_formatted\":\"1,425,000\
+        \ GBP\",\"price_high\":1425000,\"price_low\":1425000,\"price_type\":\"fixed\"\
+        ,\"property_type\":\"house\",\"summary\":\"Found moments from central Muswell\
+        \ Hill this five bedroom house offers...\",\"thumb_height\":60,\"thumb_url\"\
+        :\"http://3.s.uk.nestoria.nestimg.com/i/all/all/all/g/cs4.1.png\",\"thumb_width\"\
+        :60,\"title\":\"Muswell Road, N10 - Conversion\",\"updated_in_days\":0.5,\"\
+        updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"bathroom_number\"\
+        :\"\",\"bedroom_number\":0,\"car_spaces\":null,\"commission\":0,\"construction_year\"\
+        :0,\"datasource_name\":\"NetHousePrices\",\"guid\":\"g1-TOtATMwYjMfNTO5AzM2k\"\
+        ,\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/a/b/6/7d1d0a3a0777a196564efaaa3b5b7377eddee.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Near River\",\"latitude\":51.4811897277832031,\"\
+        lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UXe9MFhPOhQFQIBhYX&s=&url=2-ePz73aTBU4LVGFByDI4_4Ner8aIMqOqmn3O6u50s2qDemu-ced_G5rGpMAbDMkMHx54Zsli8WefUu6sPU8-oGzVguh1Pgh3ZelfSSVJkMu772ViqEdrSf0AlbLz8UGEghgfqpRYT2gCjNjxd9iD2fV94ogzZ78WAt7nDgbtzCnCUlidpAj_Id3JnOg8gZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuMQiAEo0jzzr9I6viHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.180559992790222168,\"\
+        price\":385000,\"price_currency\":\"GBP\",\"price_formatted\":\"385,000 GBP\"\
+        ,\"price_high\":385000,\"price_low\":385000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"Set on the fourth floor, this bright and studio flat\
+        \ offers generously...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/a/b/6/7d1d0a3a0777a196564efaaa3b5b7377eddee.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Worlds End Estate, SW10 - Near River\",\"\
+        updated_in_days\":0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\"\
+        :null,\"bathroom_number\":\"\",\"bedroom_number\":3,\"car_spaces\":null,\"\
+        commission\":0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\"\
+        ,\"guid\":\"g1-TOtATM5UjNfBTO0ETN4k\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/0/8/e/b9f4471d5929d275c6e46017276ab0dc1f664.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Conversion\",\"latitude\":51.5313987731933594,\"\
+        lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UdeDSLnVUnWLWOHnee&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmn3O6u50s2qDemu-cet_G5rGpMAbDMkMHx54Zsli8WefUu6sPU8-oGzVguh5HgBnZelfSSVNvMuvy2ViqEdrSf0AlbLz8UGEghgfqpRYW1wWjNjxd9iD2fV94ogzZ78WAt7nDgbtzCnCUlSVpAj_Kc3RmOgsgZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuMTgQUr0jzyotQ6sCHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.202160000801086426,\"\
+        price\":650000,\"price_currency\":\"GBP\",\"price_formatted\":\"650,000 GBP\"\
+        ,\"price_high\":650000,\"price_low\":650000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"\",\"summary\":\"Arranged over the second and third floors of a house conversion,\
+        \ this three...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/0/8/e/b9f4471d5929d275c6e46017276ab0dc1f664.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Fernhead Road, W9 - Conversion\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":3,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATM5UTNfRTO2IDM0I\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/2/b/7/20622d61bb4bb7c4f6386630b3ab0468d7425.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Balcony\",\"latitude\":51.5404014587402344,\"\
+        lister_name\":\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UaeAPIkSRkTITLEkbc&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmnHO6u50s2qDemu-ce9_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguh1FgBjZelfSSVNoM-vy2ViqEdrSf0AlbLz8UGEghgfqpRYZ0ACjNjxd9iD2fV94ogzZ78WAt7nDgbtzCnCUlSBpAj_Id3JoPAspZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuMTgQYv0jzxoNExvCHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.122060000896453857,\"\
+        price\":925000,\"price_currency\":\"GBP\",\"price_formatted\":\"925,000 GBP\"\
+        ,\"price_high\":925000,\"price_low\":925000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"house\",\"summary\":\"Exclusively launched within the third phase release\
+        \ of an new development...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/2/b/7/20622d61bb4bb7c4f6386630b3ab0468d7425.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Rufford Street, N1 - Balcony\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":2,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATM5UTNfRTO2EDN5c\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/6/2/f/0ec3d0f536eaf86cc3feeca421c08c0d2f621.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.5474014282226562,\"lister_name\"\
+        :\"Foxtons\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UceCRKmUTmVKVNGmdf&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmnHO6u50s2qDemu-ce9_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguh1GgR3eelfSSVNoNOvy2ViqEdrSf0AlbLz8UGEghgfqpRYX2wyqMzxd9iD2fV94ogzZ78WAt7nDgbtzCnCUlSBpAj_Id3JoPQgnZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuMTgQYv0jzyoNU0sSHGdj__OkR6SgZ4UbjbAJyI2A%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.113509997725486755,\"\
+        price\":799950,\"price_currency\":\"GBP\",\"price_formatted\":\"799,950 GBP\"\
+        ,\"price_high\":799950,\"price_low\":799950,\"price_type\":\"fixed\",\"property_type\"\
+        :\"\",\"summary\":\"Close to the amenities of Upper Street this smart two\
+        \ bedroom split-level...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/6/2/f/0ec3d0f536eaf86cc3feeca421c08c0d2f621.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Westbourne Road, N7\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":1,\"bedroom_number\":2,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATM0ADMFBVN18TN5MDOyY\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/6/0/a/a8e31735c44cdd526d7e5096671414e9af51f.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Purpose Built, Refurbished, Kitchen, Central\
+        \ Heating, Reception\",\"latitude\":51.5664710998535156,\"lister_name\":\"\
+        Castles\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=VWeGVOqYXqZOZRKqhk&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmm3O6u50s2qDemu-ced_G5rGpMAbDMkMIxZsZsli8WefUu6sPU8-oGzVguhxBgxDfelfSSVNqNev12ViqEdrSf0AlbLz8UGEghgfqpRYS1QWjNjxd9iD2fV94ogzZ78WAt7nDgbtyCXGfkShpAj_Ld3JpPwspZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuMWjAMryDCco9QwsT-DK2z-NlQ1RwY2S7LaHZLYzDAcjA%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.061799999326467514,\"\
+        price\":270000,\"price_currency\":\"GBP\",\"price_formatted\":\"270,000 GBP\"\
+        ,\"price_high\":270000,\"price_low\":270000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"Suitable for cash buyers only. Newly refurbished 2\
+        \ bedroom apartment...\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/6/0/a/a8e31735c44cdd526d7e5096671414e9af51f.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Upper Clapton Road, E5 - Reception\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":1,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"NetHousePrices\",\"guid\"\
+        :\"g1-TOtATMzAUNBhFO18jN3ETO0A\",\"img_height\":120,\"img_url\":\"http://2.l.uk.nestoria.nestimg.com/lis/e/8/9/821cce8acc1c31453cd4a8bae1675d3acaafa.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"Purpose Built, Off Street Parking\",\"latitude\"\
+        :51.6501998901367188,\"lister_name\":\"Space\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=VYeIXQsaZsbQbTMsjn&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmnHO6u50s2qDemu-ceN_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguh1BihHZelfSSVBpM-3y2ViqEdrSf0AlbLz8UGEghgfqpRYR1wyqMzxd9iD2fV94ogzZ78WAt7nDgbtzCnGflyRpAj_LfXtvPg4iZhuPTuyDXD_GEbPctyzaso0imGzylpzZLxMNdNeWP7EVsIjBzePTIyhf9KW98uQvBRNXM6n4tEeOeHZskOLV7QCHWFSbWuMWiwZTzD2co9cyvz6FLWz-NlQ1RwY2S7LaHZLYzDAcjA%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":9,\"longitude\":-0.168960005044937134,\"\
+        price\":159950,\"price_currency\":\"GBP\",\"price_formatted\":\"159,950 GBP\"\
+        ,\"price_high\":159950,\"price_low\":159950,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"Purpose built, ground floor studio flat. within walking\
+        \ distance to shops...\",\"thumb_height\":60,\"thumb_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/e/8/9/821cce8acc1c31453cd4a8bae1675d3acaafa.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Alexander Cl, Barnet, Hertfordshire, EN4\"\
+        ,\"updated_in_days\":0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"\
+        auction_date\":null,\"bathroom_number\":\"\",\"bedroom_number\":3,\"car_spaces\"\
+        :null,\"commission\":0,\"construction_year\":0,\"datasource_name\":\"Home.co.uk\"\
+        ,\"guid\":\"g1-DOtUzM4kDMzUjMzIgM==\",\"img_height\":120,\"img_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/d/0/b/ba29e31315a7b9949beee0331f95b985e5662.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.6710205078125,\"lister_name\"\
+        :\"haart\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UVe7KDfNMfODOG.fWb&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMHx50Zsli8WOfUu6sPU8-oGzVguh5AgBncelfSSVBrMu_w2ViqEdrSf0AlbLz8UGEghgfqpRYU0gWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3eTkSdpAj_LfHBvPAkoZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxqqAqkfMTA7NQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":10,\"longitude\":-0.272130012512207031,\"\
+        price\":400000,\"price_currency\":\"GBP\",\"price_formatted\":\"400,000 GBP\"\
+        ,\"price_high\":400000,\"price_low\":400000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"house\",\"summary\":\"\",\"thumb_height\":60,\"thumb_url\":\"http://2.l.uk.nestoria.nestimg.com/lis/d/0/b/ba29e31315a7b9949beee0331f95b985e5662.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Borehamwood, WD6\",\"updated_in_days\":0.5,\"\
+        updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"bathroom_number\"\
+        :\"\",\"bedroom_number\":2,\"car_spaces\":null,\"commission\":0,\"construction_year\"\
+        :0,\"datasource_name\":\"Home.co.uk\",\"guid\":\"g1-DOtUzM5kzN0YTM5IwN==\"\
+        ,\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/c/4/e/77e570061ff0d88026d49c52439ee2afc0898.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.6566696166992188,\"lister_name\"\
+        :\"haart\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=VbeLaTvdcveTeWPvms&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmmXO6u50s2qDemu-ceN_G5rGpMAbDMkMHx50Zsli8WOfUu6sPU8-oGzVguh5ChxDeelfSSVBpNen12ViqEdrSf0AlbLz8UGEghgfqpRYS1wWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3eTkSdpAj_LfHBvPA8hZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquHqUDPTATIQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":10,\"longitude\":-0.255809992551803589,\"\
+        price\":250000,\"price_currency\":\"GBP\",\"price_formatted\":\"250,000 GBP\"\
+        ,\"price_high\":250000,\"price_low\":250000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/c/4/e/77e570061ff0d88026d49c52439ee2afc0898.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Kensington Way, Borehamwood, WD6\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":2,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"Home.co.uk\",\"guid\":\"\
+        g1-DOtUDNyAzM0MDO3QAO==\",\"img_height\":120,\"img_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/7/8/e/2fdbee10b1e03e7a01a7bde8118a813346e49.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.6359291076660156,\"lister_name\"\
+        :\"Spencer Munson\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=VVeFUNpXWpYNYQJpgn&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmm3O6u50s2qDemu-ced_G5rGpMAbDMkMIxZsZsli8WOfUu6sPU8-oGyh-pBxChh_DY1PNUVVpOuzg11bkCYzKZwBlYrKuUnoqgEDyvQAX1wWjNiAXvEvzby0n8wKI_4SYr6PPnKV3B3WRnTx1BTrBd3NrPAgzaBXYSfLNRCeMDbPY_Tna6o0iwSrzno2fIwlQZMzLJbcRscXKjeqZPidS_a696vgyBQBKMuTrr1aAGjIuzaGDq0zKSQXZAaBJ1Q516Ha3-ZNq6SXI&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":10,\"longitude\":0.00547000020742416382,\"\
+        price\":475000,\"price_currency\":\"GBP\",\"price_formatted\":\"475,000 GBP\"\
+        ,\"price_high\":475000,\"price_low\":475000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"\",\"thumb_height\":60,\"thumb_url\":\"http://2.l.uk.nestoria.nestimg.com/lis/7/8/e/2fdbee10b1e03e7a01a7bde8118a813346e49.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Walsingham House, N. Chingford, E4\",\"updated_in_days\"\
+        :0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\":null,\"\
+        bathroom_number\":\"\",\"bedroom_number\":2,\"car_spaces\":null,\"commission\"\
+        :0,\"construction_year\":0,\"datasource_name\":\"Home.co.uk\",\"guid\":\"\
+        g1-DOtUDNxAjNzEDO3cAM==\",\"img_height\":120,\"img_url\":\"http://1.l.uk.nestoria.nestimg.com/lis/9/1/4/9f091c933a3ab77ff618f1ed61c327c499aab.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.6494102478027344,\"lister_name\"\
+        :\"Ellis\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=UVe7KDfNMfODOG.fWe&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMIxZ4Zsli8WOfUu6sPU8-oGzVguhxBhxrbelfSSVBoOuvz2ViqEdrSf0AlbLz8UGEghgfqpRYT2gWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3SUlChpAj_LfHBvPwUjZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6OGrkfGSQrPQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":10,\"longitude\":-0.0652400031685829163,\"\
+        price\":380000,\"price_currency\":\"GBP\",\"price_formatted\":\"380,000 GBP\"\
+        ,\"price_high\":380000,\"price_low\":380000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"house\",\"summary\":\"\",\"thumb_height\":60,\"thumb_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/9/1/4/9f091c933a3ab77ff618f1ed61c327c499aab.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Percival Road, Enfield, Middlesex, EN1\",\"\
+        updated_in_days\":0.5,\"updated_in_days_formatted\":\"yesterday\"},{\"auction_date\"\
+        :null,\"bathroom_number\":\"\",\"bedroom_number\":1,\"car_spaces\":null,\"\
+        commission\":0,\"construction_year\":0,\"datasource_name\":\"Home.co.uk\"\
+        ,\"guid\":\"g1-DOtUzM5kTMzkDOykQM==\",\"img_height\":120,\"img_url\":\"http://3.l.uk.nestoria.nestimg.com/lis/b/b/8/96ccb1248bf6ee13b8d25d928035d4f20d30f.2.jpg\"\
+        ,\"img_width\":160,\"keywords\":\"\",\"latitude\":51.6512985229492188,\"lister_name\"\
+        :\"haart\",\"lister_url\":\"http://rd.nestoria.co.uk/rd?itype=2&l=WWeQfY0ih0jYjbU0sq&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmmXO6u50s2qDemu-ceN_G5rGpMAbDMkMHx50Zsli8WefUu6sPU8-oGzVguh5Bgh_belfSSVBpMuzy2ViqEdrSf0AlbLz8UGEghgfqpRYR2gWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3eTkSdpAj_LfHBvPwUpZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquBpkfGRw_OQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2\"\
+        ,\"listing_type\":\"buy\",\"location_accuracy\":10,\"longitude\":-0.260740011930465698,\"\
+        price\":180000,\"price_currency\":\"GBP\",\"price_formatted\":\"180,000 GBP\"\
+        ,\"price_high\":180000,\"price_low\":180000,\"price_type\":\"fixed\",\"property_type\"\
+        :\"flat\",\"summary\":\"\",\"thumb_height\":60,\"thumb_url\":\"http://2.l.uk.nestoria.nestimg.com/lis/b/b/8/96ccb1248bf6ee13b8d25d928035d4f20d30f.1.jpg\"\
+        ,\"thumb_width\":60,\"title\":\"Borehamwood, WD6\",\"updated_in_days\":0.5,\"\
+        updated_in_days_formatted\":\"yesterday\"}],\"locations\":[{\"center_lat\"\
+        :51.527243,\"center_long\":-0.106841,\"long_title\":\"London\",\"place_name\"\
+        :\"london\",\"title\":\"London\"}],\"page\":\"1\",\"sort\":\"newest\",\"status_code\"\
+        :\"200\",\"status_text\":\"OK\",\"thanks\":\"For using the Nestoria API.\"\
+        ,\"total_pages\":1728,\"total_results\":34551,\"we_are_hiring\":\"http://lokku.com/#jobs\"\
+        }}"}
+    headers:
+      connection: [close]
+      content-type: [application/json; charset=UTF-8]
+      date: ['Sun, 26 Apr 2015 19:01:35 GMT']
+      server: [Apache]
+      set-cookie: ['x=MjU1MjkwM0NZUUEzdTAxNDMwMDc0ODk1XdA; domain=.nestoria.co.uk;
+          path=/; expires=Wed, 23-Apr-2025 19:01:35 GMT']
+      transfer-encoding: [chunked]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [api.nestoria.co.uk]
+      User-Agent: [Python-urllib/2.7]
+    method: GET
+    uri: http://api.nestoria.co.uk/api?sort=newest&number_of_results=20&country=uk&encoding=json&action=search_listings&page=2&place_name=London
+  response:
+    body: {string: !!python/unicode '{"request":{"country":"uk","language":"en","location":"London","num_res":"20","offset":20,"output":"json_xs","page":"2","product_type":"realestate","property_type":"property","size_type":"gross","size_unit":"m2","sort":"newest"},"response":{"application_response_code":"110","application_response_text":"listings
+        returned, location very large","attribution":{"img_height":22,"img_url":"http://s.uk.nestoria.nestimg.com/i/realestate/all/all/pbr.png","img_width":183,"link_to_img":"http://www.nestoria.com"},"created_http":"Sun,
+        26 Apr 2015 19:01:36 GMT","created_unix":1430074896,"link_to_url":"http://www.nestoria.co.uk/london/property/buy/results-20/sortby-newest/start-20","listings":[{"auction_date":null,"bathroom_number":"","bedroom_number":3,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM5kDMwkzN1AwM==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/7/c/3/06ac344a8b5d3b108600c33b3a93cca69ba8e.2.jpg","img_width":160,"keywords":"","latitude":51.6515617370605469,"lister_name":"haart","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VceMbUwedwfUfXQwn&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMHx50Zsli8WefUu6sPU8-oGzVguh5AhRDYelfSSVBpMur02ViqEdrSf0AlbLz8UGEghgfqpRYT0AWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3eTkSdpAj_LfHBvPwQgZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquApkTJTgjMQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.277869999408721924,"price":320000,"price_currency":"GBP","price_formatted":"320,000
+        GBP","price_high":320000,"price_low":320000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/7/c/3/06ac344a8b5d3b108600c33b3a93cca69ba8e.1.jpg","thumb_width":60,"title":"Oakwood
+        House, WD6","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":3,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM5kDMwkzN2AQM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/5/0/d/5bc0c40a64961874ab0c4fb4540f90cdde963.2.jpg","img_width":160,"keywords":"","latitude":51.6515617370605469,"lister_name":"haart","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VYeIXQsaZsbQbTMsk&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMHx50Zsli8WefUu6sPU8-oGzVguh5AhRDYelfSSVBpMur02ViqEdrSf0AlbLz8UGEghgfqpRYT0wCjNjxd9iD2fV94ogzZ78WAt7nChLtwB3eTkSdpAj_LfHBvPwQjZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquApkTJTgvOQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.277869999408721924,"price":315000,"price_currency":"GBP","price_formatted":"315,000
+        GBP","price_high":315000,"price_low":315000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/5/0/d/5bc0c40a64961874ab0c4fb4540f90cdde963.1.jpg","thumb_width":60,"title":"Oakwood
+        House, WD6","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNyAzMzUjM2IQM==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/d/a/7/e20e1b65e42bd0b183d093a07e3eff725d07c.2.jpg","img_width":160,"keywords":"","latitude":51.6435585021972656,"lister_name":"Stevenette","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VbeLaTvdcveTeWPvo&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMIwpMZsli8WOfUu6sPU8-oGyh-pBhOgxrDY1PNUVJvNung11bkCYzKZwBlYrKuUnoqgEDyvQAZ0gWjNiAXvEvzby0n8wKI_4SYr6PPnKV0CHyWkTx1BTrBd3NrPQ4zaBXYSfLNRCeMDbPY_Tna6o0iwSrzno2fIwlQZMzLJbcRscXKjeqZPidS_a696vgyBQBKMuTrr1aAGjIuzaGFrEbMSAzZAaBJ1Q516Ha3-ZNq6SXI&v=2","listing_type":"buy","location_accuracy":10,"longitude":0.049120001494884491,"price":490000,"price_currency":"GBP","price_formatted":"490,000
+        GBP","price_high":490000,"price_low":490000,"price_type":"fixed","property_type":"house","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/d/a/7/e20e1b65e42bd0b183d093a07e3eff725d07c.1.jpg","thumb_width":60,"title":"High
+        Gables, Loughton, Essex, IG10","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM5kDMwkzN0AAN==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/7/a/9/d42133bb86c88e9c2f4998f0f742fa4157d05.2.jpg","img_width":160,"keywords":"","latitude":51.6515617370605469,"lister_name":"haart","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=WYeSha2kj2laldW2w&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMHx50Zsli8WefUu6sPU8-oGzVguh5AhRDYelfSSVBpMur02ViqEdrSf0AlbLz8UGEghgfqpRYS2wemNjxd9iD2fV94ogzZ78WAt7nChLtwB3eTkSdpAj_LfHBvPwQhZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquApkTJTgnLQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.277869999408721924,"price":292500,"price_currency":"GBP","price_formatted":"292,500
+        GBP","price_high":292500,"price_low":292500,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/7/a/9/d42133bb86c88e9c2f4998f0f742fa4157d05.1.jpg","thumb_width":60,"title":"Oakwood
+        House, WD6","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":3,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM1kDNwcDO1YAO==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/5/5/2/cc207d70b9c24d6196343cda0c54b1e75c506.2.jpg","img_width":160,"keywords":"","latitude":51.652099609375,"lister_name":"Amanda
+        Roberts","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VZeJYRtbatcRcUNto&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMIxZ4Zsli8WefUu6sPU8-oGzVguhxOhxrZelfSSVBpMe7y2ViqEdrSf0AlbLz8UGEghgfqpRYU0AGqMzxd9iD2fV94ogzZ78WAt7nChLtyCXKfkCdpAj_LfHBvPwQiZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxqeEqETGSAjHQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.0952600017189979554,"price":424950,"price_currency":"GBP","price_formatted":"424,950
+        GBP","price_high":424950,"price_low":424950,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/5/5/2/cc207d70b9c24d6196343cda0c54b1e75c506.1.jpg","thumb_width":60,"title":"Barrydene
+        Ct, Waverley Rd, Enfield, EN2","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":3,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxADOwQjN0MgM==","img_height":120,"img_url":"http://1.l.uk.nestoria.nestimg.com/lis/d/3/3/d11c2ed369442fdc318d140436274da165ae7.2.jpg","img_width":160,"keywords":"","latitude":51.6150283813476562,"lister_name":"Ellis","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VbeLaTvdcveTeWPvr&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmnXO6u50s2qDemu-ced_G5rGpMAbDMkMIwpsZsli8WOfUu6sPU8-oGzVguh9GhBraelfSSVBtNu_x2ViqEdrSf0AlbLz8UGEghgfqpRYU2gCjNjxd9iD2fV94ogzZ78WAt7nChLtwB3SUlChpAj_Kc3JmPAUpZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6OIq0TITQnNQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.316249996423721313,"price":485000,"price_currency":"GBP","price_formatted":"485,000
+        GBP","price_high":485000,"price_low":485000,"price_type":"fixed","property_type":"house","summary":"","thumb_height":60,"thumb_url":"http://3.l.uk.nestoria.nestimg.com/lis/d/3/3/d11c2ed369442fdc318d140436274da165ae7.1.jpg","thumb_width":60,"title":"Chambers
+        Walk, Stanmore, Middlesex, HA7","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxATO5MTN2IAN==","img_height":120,"img_url":"http://1.l.uk.nestoria.nestimg.com/lis/2/6/5/119cdf92cc88dadf9a3b2c745f523019496f8.2.jpg","img_width":160,"keywords":"","latitude":51.6191291809082031,"lister_name":"Ellis","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VbeLaTvdcveTeWPvs&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmnXO6u50s2qDemu-ced_G5rGpMAbDMkMIwpsZsli8WefUu6sPU8-oGzVguh9HhhHZelfSSVBtOu7x2ViqEdrSf0AlbLz8UGEghgfqpRYT1QCjNjxd9iD2fV94ogzZ78WAt7nChLtwB3SUlChpAj_LfHBvPwglZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6OJrE3LTAvLQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.304960012435913086,"price":375000,"price_currency":"GBP","price_formatted":"375,000
+        GBP","price_high":375000,"price_low":375000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://3.l.uk.nestoria.nestimg.com/lis/2/6/5/119cdf92cc88dadf9a3b2c745f523019496f8.1.jpg","thumb_width":60,"title":"Belmont
+        Lodge Rd, Stanmore, Middlesex, HA7","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":1,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM5kTO2ETNwMQN==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/a/4/2/b212ced71eef2f22ac7b0106e4081c67f681b.2.jpg","img_width":160,"keywords":"","latitude":51.5655403137207031,"lister_name":"Taylor
+        Gibbs","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=WZeTib3lk3mbmeX31&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmnHO6u50s2qDemu-ced_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguh1DihzfelfSSVNqNur22ViqEdrSf0AlbLz8UGEghgfqpRYT1wWjNjxd9iD2fV94ogzZ78WAt7nChLtyCHGelihpAj_LfHBvPgopZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquJrkLLTQ3KQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.148399993777275085,"price":350000,"price_currency":"GBP","price_formatted":"350,000
+        GBP","price_high":350000,"price_low":350000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/a/4/2/b212ced71eef2f22ac7b0106e4081c67f681b.1.jpg","thumb_width":60,"title":"Oakeshott
+        Avenue, Highgate, N6","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM1kDOzcjMyUgM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/7/c/4/7f8e4a02b1ac94aa020f06a6643f9350f0e70.2.jpg","img_width":160,"keywords":"","latitude":51.5698890686035156,"lister_name":"Outlook","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=WceWle6on6pepha65&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmm3O6u50s2qDemu-ceN_G5rGpMAbDMkMIxZsZsli8WefUu6sPU8-oGzVguhxFhx_WelfSSVNqOuf72ViqEdrSf0AlbLz8UGEghgfqpRYR2gWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3eSnSdpAj_LfHBvPgUkZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxqeIqEfMSw_NQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.0257900003343820572,"price":180000,"price_currency":"GBP","price_formatted":"180,000
+        GBP","price_high":180000,"price_low":180000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/7/c/4/7f8e4a02b1ac94aa020f06a6643f9350f0e70.1.jpg","thumb_width":60,"title":"Bridge
+        Ct, Lea Bridge Rd, Leyton, E10","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxAzM5cTOzggM==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/1/c/7/72897be1f5000f1bd367c49067a2a835a47db.2.jpg","img_width":160,"keywords":"","latitude":51.581268310546875,"lister_name":"Aldermartin","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VWeGVOqYXqZOZRKqhg&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmnHO6u50s2qDemu-cet_G5rGpMAbDMkMIwZ0Zsli8WefUu6sPU8-oGzVguh5HixDWelfSSVNkMu312ViqEdrSf0AlbLz8UGEghgfqpRYX0AGqPzVd9iD2fV94ogzZ78WAt7nChLtyC3yXkCVpAj_LcXVsOw4kZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6ODqE3HRg7NQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.209889993071556091,"price":724999,"price_currency":"GBP","price_formatted":"724,999
+        GBP","price_high":724999,"price_low":724999,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/1/c/7/72897be1f5000f1bd367c49067a2a835a47db.1.jpg","thumb_width":60,"title":"Woodlands,
+        NW11","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxATOxIDN2ggM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/a/8/0/8b47a9383eb9d4e10b792fc58dba4b4ce486b.2.jpg","img_width":160,"keywords":"","latitude":51.5517082214355469,"lister_name":"Ellis","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VceMbUwedwfUfXQwnn&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmnXO6u50s2qDemu-ced_G5rGpMAbDMkMIwpsZsli8WefUu6sPU8-oGzVguh9GhxjdelfSSVNpMujz2ViqEdrSf0AlbLz8UGEghgfqpRYT1gyqMzxd9iD2fV94ogzZ78WAt7nChLtwB3SUlChpAj_KcnptOwwiZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6OJrUXKRgvNQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.315019994974136353,"price":349950,"price_currency":"GBP","price_formatted":"349,950
+        GBP","price_high":349950,"price_low":349950,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/a/8/0/8b47a9383eb9d4e10b792fc58dba4b4ce486b.1.jpg","thumb_width":60,"title":"Station
+        Approach, Wembley, HA0","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":1,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM2kDOxMDOxkQM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/1/7/a/65bb7435939bee2af8764f057cb0466d85eac.2.jpg","img_width":160,"keywords":"","latitude":51.5530891418457031,"lister_name":"Steps","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=WbeVkd5nm5odogZ5wx&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmmXO6u50s2qDemu-ced_G5rGpMAbDMkMIwpMZsli8WefUu6sPU8-oGyh-pR9HhR_DY1PNUlNvM-bg11bkCYzKZwBlYrKuUnoqgEDyvQcW1wWjNiAXvEvzby0n8wKI_4SYr6PPnKVxD3eekzx1BTrBd3NqPA4zaBXYSfLNRCeMDbPY_Tna6o0iwSrzno2fIwlQZMzLJbcRscXKjeqZPidS_a696vgyBQBKMuTrr1aAGjUnyaqDrkzHTwzZAaBJ1Q516Ha3-ZNq6SXI&v=2","listing_type":"buy","location_accuracy":10,"longitude":0.130769997835159302,"price":365000,"price_currency":"GBP","price_formatted":"365,000
+        GBP","price_high":365000,"price_low":365000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/1/7/a/65bb7435939bee2af8764f057cb0466d85eac.1.jpg","thumb_width":60,"title":"Valence
+        Avenue, Dagenham, RM8","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":1,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxAzMzMTN0kgM==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/1/4/b/33aa1ddce03a6c4379f0a12ef18baa951a68b.2.jpg","img_width":160,"keywords":"","latitude":51.5445899963378906,"lister_name":"KF&H","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=WVePeXzhgziXiaTzqs&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmnHO6u50s2qDemu-ced_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguhxPhhjWelfSSVNoN-r72ViqEdrSf0AlbLz8UGEghgfqpRYU2gWjNjxd9iD2fV94ogzZ78WAt7nChLtwB3yQkilpAj_LfHBvPggjZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6ODrEfLRwnNQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.0840900018811225892,"price":480000,"price_currency":"GBP","price_formatted":"480,000
+        GBP","price_high":480000,"price_low":480000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/1/4/b/33aa1ddce03a6c4379f0a12ef18baa951a68b.1.jpg","thumb_width":60,"title":"Southgate
+        Road, Islington, N1","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":1,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNyAzM5ADOxQQM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/9/c/c/ce1fc5b7885b764d84673f6b482f3823ee7e9.2.jpg","img_width":160,"keywords":"","latitude":51.5500907897949219,"lister_name":"Porter
+        Glenny","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=XVeZoh9rq9shskd903&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmmXO6u50s2qDemu-ceN_G5rGpMAbDMkMIwpMZsli8WOfUu6sPU8-oGyh-pRxAhxHDY1PNUlNsM-bg11bkCYzKZwBlYrKuUnoqgEDyvQUU0gWjNiAXvEvzby0n8wKI_4SYr6PPnKd5D3yTlDx1BTrPcnpsOQUzaBXYSfLNRCeMDbPY_Tna6o0iwSrzno2fIwlQZMzLJbcRscXKjeqZPidS_a696vgyBQBKMuTrr1aAGjIuzaGApkzKTwzZAaBJ1Q516Ha3-ZNq6SXI&v=2","listing_type":"buy","location_accuracy":10,"longitude":0.107589997351169586,"price":140000,"price_currency":"GBP","price_formatted":"140,000
+        GBP","price_high":140000,"price_low":140000,"price_type":"fixed","property_type":"house","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/9/c/c/ce1fc5b7885b764d84673f6b482f3823ee7e9.1.jpg","thumb_width":60,"title":"Waterside
+        Close, Barking, Essex, IG11","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxAzMzATMzkwM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/e/1/f/79d2b18b5590fbbd32f2293cae3e1ab3babfc.2.jpg","img_width":160,"keywords":"","latitude":51.5483512878417969,"lister_name":"Savills","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=WaeUjc4ml4ncnfY4vz&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmnHO6u50s2qDemu-ce9_G5rGpMAbDMkMIwZ0Zsli8WefUu6sPU8-oGzVguh1Bgx_YelfSSVNoO-z32ViqEdrSf0AlbLz8UGEghgfqpRYY1QCjNjxd9iD2fV94ogzZ78WAt7nChLtwB3GfkiJpAj_LfHBvPggoZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6ODr0fPRw7MQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.16177000105381012,"price":875000,"price_currency":"GBP","price_formatted":"875,000
+        GBP","price_high":875000,"price_low":875000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/e/1/f/79d2b18b5590fbbd32f2293cae3e1ab3babfc.1.jpg","thumb_width":60,"title":"Elaine
+        Ct, Haverstock Hill, Hampstead, NW3","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":3,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUzM5kDO3ATN2YAM==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/4/4/f/58c55f2b527b38c7df594f38febeeb7d1925c.2.jpg","img_width":160,"keywords":"","latitude":51.5565185546875,"lister_name":"David
+        Andrew Estates","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=UceCRKmUTmVKVNGmdi&s=&url=2-ePz73aTBU4LVGFByDI484Ner8aIMqOqmnHO6u50s2qDemu-ce9_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguh1DixDZelfSSVNpNerw2ViqEdrSf0AlbLz8UGEghgfqpRYX2wCjNjxd9iD2fV94ogzZ78WAt7nChLtyDnKRliBpAj_LfHBvPgojZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjstxquIr0PLSAvPQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.149859994649887085,"price":795000,"price_currency":"GBP","price_formatted":"795,000
+        GBP","price_high":795000,"price_low":795000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/4/4/f/58c55f2b527b38c7df594f38febeeb7d1925c.1.jpg","thumb_width":60,"title":"Lissenden
+        Mansions, NW5","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":2,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNwATN4UTO4gAM==","img_height":120,"img_url":"http://1.l.uk.nestoria.nestimg.com/lis/e/8/e/3b516900d95d85c60655b0dc0f980057da468.2.jpg","img_width":160,"keywords":"","latitude":51.5443801879882812,"lister_name":"Steps","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VceMbUwedwfUfXQwnt&s=&url=2-ePz73aTBU4LVGFByDI494Ner8aIMqOqmmXO6u50s2qDemu-ceN_G5rGpMAbDMkMIwpMZsli8WefUu6sPU8-oGyh-pR5HgBrDY1PNUlJoMOfg11bkCYzKZwBlYrKuUnoqgEDyvQYS2wymNiAXvEvzby0n8wKI_4SYr6PPnKVxD3eekzx1BTrBd3NqPw0zaBXYSfLNRCeMDbPY_Tna6o0iwSrzno2fIwlQZMzLJbcRscXKjeqZPidS_a696vgyBQBKMuTrr1aAGjIuz6eFp03GRg3ZAaBJ1Q516Ha3-ZNq6SXI&v=2","listing_type":"buy","location_accuracy":10,"longitude":0.120219998061656952,"price":229950,"price_currency":"GBP","price_formatted":"229,950
+        GBP","price_high":229950,"price_low":229950,"price_type":"fixed","property_type":"house","summary":"Notice
+        Of Offer Property Address: 300 Porters Avenue.","thumb_height":60,"thumb_url":"http://3.l.uk.nestoria.nestimg.com/lis/e/8/e/3b516900d95d85c60655b0dc0f980057da468.1.jpg","thumb_width":60,"title":"Porters
+        Avenue, Dagenham, RM8","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":1,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxAzMzEDOyUAM==","img_height":120,"img_url":"http://1.l.uk.nestoria.nestimg.com/lis/9/d/e/a44c9153c80d24c83264694c419fe4e68ab0f.2.jpg","img_width":160,"keywords":"","latitude":51.5473213195800781,"lister_name":"Cluttons","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VUeETMoWVoXMXPIofm&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmnHO6u50s2qDemu-ced_G5rGpMAbDMkMIwZsZsli8WefUu6sPU8-oGzVguhxOhRjXelfSSVNoNOzw2ViqEdrSf0AlbLz8UGEghgfqpRYV0gWjNjxd9iD2fV94ogzZ78WAt7nChLtyCXWUlydpAj_LfHBvPggkZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6ODrkfGSw_PQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.0970799997448921205,"price":500000,"price_currency":"GBP","price_formatted":"500,000
+        GBP","price_high":500000,"price_low":500000,"price_type":"fixed","property_type":"flat","summary":"","thumb_height":60,"thumb_url":"http://3.l.uk.nestoria.nestimg.com/lis/9/d/e/a44c9153c80d24c83264694c419fe4e68ab0f.1.jpg","thumb_width":60,"title":"St.
+        Pauls Road, N1","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":1,"bedroom_number":1,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxAjNwYDM3QQN==","img_height":120,"img_url":"http://3.l.uk.nestoria.nestimg.com/lis/8/d/e/dce3c9c4eb45e93c67de3be08ec90d75886bd.2.jpg","img_width":160,"keywords":"Share
+        of Freehold, High Ceilings, Kitchen, Central Heating, Reception","latitude":51.5540008544921875,"lister_name":"Grey","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=UYe-NGiQPiRGRJCiZh&s=&url=2-ePz73aTBU4LVGFByDI4-4Ner8aIMqOqmnXO6u50s2qDemu-ceN_G5rGpMAbDMkMIwpsZsli8WefUu6sPU8-oGzVguh5OhRnfelfSSVNpN-_y2ViqEdrSf0AlbLz8UGEghgfqpRYS1wWjNjxd9iD2fV94ogzZ78WAt7nChLtyCnKelSFpAj_LfXpsPQ8mZhuPTuyDXD_GEbPctyzaso0imGz0nIXUbgURP9KPeaEVotTByqGYLzJa-LHgrOQrV09IL_v-uFCNXjsqz6OGqUTOSgrKQbRU114m42Cw4o5x4WaXZA%3D%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.2971000075340271,"price":250000,"price_currency":"GBP","price_formatted":"250,000
+        GBP","price_high":250000,"price_low":250000,"price_type":"fixed","property_type":"flat","summary":"Converted
+        ground floor flat located on a residential road. st johns road is...","thumb_height":60,"thumb_url":"http://2.l.uk.nestoria.nestimg.com/lis/8/d/e/dce3c9c4eb45e93c67de3be08ec90d75886bd.1.jpg","thumb_width":60,"title":"St
+        Johns Road, Wembley, HA9 - Kitchen","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"},{"auction_date":null,"bathroom_number":"","bedroom_number":4,"car_spaces":null,"commission":0,"construction_year":0,"datasource_name":"Home.co.uk","guid":"g1-DOtUDNxAzNzgzN4QAM==","img_height":120,"img_url":"http://2.l.uk.nestoria.nestimg.com/lis/e/1/4/1e1682c93c9a0e92831fe87c032d723a10ca3.2.jpg","img_width":160,"keywords":"","latitude":51.5473403930664062,"lister_name":"Winkworth","lister_url":"http://rd.nestoria.co.uk/rd?itype=2&l=VVeFUNpXWpYNYQJphf&s=&url=2-ePz73aTBU4LVGFByDI474Ner8aIMqOqmnHO6u50s2qDemu-cfN_G5rGpMAbDMkMIwZsZsli8WOfUu6sPU8-oGzVguhxOhh_WelfSSVNoNOz22ViqEdrSf0AlbLz8UGEghgfqpRYR1gCjNjxBvGqdeE0K_V3XvtXBr6HYiaNsDn2WkylwHjjOdntsOwkkcxWBGeudEifeW6_cs2bPstUimDWym4fcJUgdfomRPf0DpsfQwebTLiNP8LT_8aI3Th0HLebhrUeLU38jy6KBqEzNSQnHV_RAylx2sGum5ZVs-m7UOzc%3D&v=2","listing_type":"buy","location_accuracy":10,"longitude":-0.0947899967432022096,"price":1450000,"price_currency":"GBP","price_formatted":"1,450,000
+        GBP","price_high":1450000,"price_low":1450000,"price_type":"fixed","property_type":"house","summary":"","thumb_height":60,"thumb_url":"http://1.l.uk.nestoria.nestimg.com/lis/e/1/4/1e1682c93c9a0e92831fe87c032d723a10ca3.1.jpg","thumb_width":60,"title":"St
+        Pauls Road, Islington, N1","updated_in_days":0.5,"updated_in_days_formatted":"yesterday"}],"locations":[{"center_lat":51.527243,"center_long":-0.106841,"long_title":"London","place_name":"london","title":"London"}],"page":"2","sort":"newest","status_code":"200","status_text":"OK","thanks":"For
+        using the Nestoria API.","total_pages":1728,"total_results":34551,"we_are_hiring":"http://lokku.com/#jobs"}}'}
+    headers:
+      connection: [close]
+      content-type: [application/json; charset=UTF-8]
+      date: ['Sun, 26 Apr 2015 19:01:36 GMT']
+      server: [Apache]
+      set-cookie: ['x=MDI1MEVRM2lZRmFSejAxNDMwMDc0ODk2OmA; domain=.nestoria.co.uk;
+          path=/; expires=Wed, 23-Apr-2025 19:01:36 GMT']
+      transfer-encoding: [chunked]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1
